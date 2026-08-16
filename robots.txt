@@ -1,0 +1,16 @@
+# Flamingo AI
+User-agent: *
+Allow: /
+
+# Keep private app planes and per-link pages out of search results
+Disallow: /admin
+Disallow: /control
+Disallow: /workspace
+Disallow: /login
+Disallow: /activate
+Disallow: /interview/
+Disallow: /subscribe/
+Disallow: /pay/
+Disallow: /os/
+
+Sitemap: https://flamingo.ai/sitemap.xml

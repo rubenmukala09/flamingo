@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/flamingo/favicon.png" />
+    <link rel="apple-touch-icon" href="/flamingo/favicon.png" />
+    <meta name="theme-color" content="#FFF8F0" />
+    <script>
+      ;(() => {
+        try {
+          const saved = localStorage.getItem('flamingo-theme')
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const theme = saved === 'night' || saved === 'day' ? saved : prefersDark ? 'night' : 'day'
+          document.documentElement.dataset.theme = theme
+        } catch {
+          document.documentElement.dataset.theme = 'day'
+        }
+      })()
+    </script>
+
+    <!-- Primary Meta Tags -->
+    <title>Flamingo AI, Graceful AI for websites, automation, and training</title>
+    <meta name="title" content="Flamingo AI, Graceful AI for websites, automation, and training" />
+    <meta
+      name="description"
+      content="Flamingo AI builds premium websites, AI assistants, automation workflows, dashboards, and AI training for small businesses and organizations."
+    />
+    <link rel="canonical" href="https://rubenmukala09.github.io/flamingo/" />
+    <link rel="manifest" href="/flamingo/site.webmanifest" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <!-- Production domain: flamingo.ai -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rubenmukala09.github.io/flamingo/" />
+    <meta property="og:title" content="Flamingo AI, Graceful AI for websites, automation, and training" />
+    <meta
+      property="og:description"
+      content="We build websites, AI agents, automation workflows, and training systems to help your business work faster with clarity."
+    />
+    <meta property="og:image" content="https://rubenmukala09.github.io/flamingo/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Flamingo AI, graceful AI for smarter work" />
+    <meta property="og:site_name" content="Flamingo AI" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://rubenmukala09.github.io/flamingo/" />
+    <meta name="twitter:title" content="Flamingo AI, Graceful AI for websites, automation, and training" />
+    <meta
+      name="twitter:description"
+      content="We build websites, AI agents, automation workflows, and training systems to help your business work faster with clarity."
+    />
+    <meta name="twitter:image" content="https://rubenmukala09.github.io/flamingo/og-image.jpg" />
+
+    <!-- Structured data: Organization + WebSite (helps search engines + rich results) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Flamingo AI",
+        "url": "https://rubenmukala09.github.io/flamingo/",
+        "logo": "https://rubenmukala09.github.io/flamingo/favicon.png",
+        "image": "https://rubenmukala09.github.io/flamingo/og-image.jpg",
+        "email": "hello@flamingo.ai",
+        "description": "Flamingo AI builds premium websites, AI assistants, automation workflows, dashboards, and AI training, plus Flamingo OS, a secure operating system teams run on.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hello@flamingo.ai",
+          "contactType": "sales",
+          "availableLanguage": ["English"]
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Flamingo AI services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website development" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI automation" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI assistants" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dashboards and internal tools" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI training" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flamingo OS, secure operating system" } }
+          ]
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Flamingo AI",
+        "url": "https://rubenmukala09.github.io/flamingo/"
+      }
+    </script>
+
+    <!-- Fonts — loaded non-render-blocking; text paints immediately in the
+         system-ui fallback and swaps in once the webfonts arrive (display=swap) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      />
+    </noscript>
+
+    <script type="module" crossorigin src="/flamingo/assets/index-BDZe7tV3.js"></script>
+    <link rel="modulepreload" crossorigin href="/flamingo/assets/react-CHu_25O2.js">
+    <link rel="modulepreload" crossorigin href="/flamingo/assets/router-BAI86Nu9.js">
+    <link rel="modulepreload" crossorigin href="/flamingo/assets/vendor-DNvwyxe6.js">
+    <link rel="modulepreload" crossorigin href="/flamingo/assets/motion-C56hx7KS.js">
+    <link rel="stylesheet" crossorigin href="/flamingo/assets/index-BhqML99e.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

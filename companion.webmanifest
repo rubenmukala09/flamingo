@@ -1,0 +1,15 @@
+{
+  "name": "Flamingo Companion",
+  "short_name": "Companion",
+  "description": "Decisions, approvals, and grounded AI on the go, inside your private Flamingo company.",
+  "start_url": "/flamingo/companion",
+  "scope": "/flamingo/companion",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#062a32",
+  "theme_color": "#0a414d",
+  "icons": [
+    { "src": "/flamingo/companion-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/flamingo/favicon.png", "sizes": "112x112", "type": "image/png", "purpose": "any" }
+  ]
+}

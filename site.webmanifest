@@ -1,0 +1,18 @@
+{
+  "name": "Flamingo AI",
+  "short_name": "Flamingo AI",
+  "description": "Graceful AI for websites, automation, and training, plus Flamingo OS, the secure operating system your team runs on.",
+  "start_url": "/flamingo/",
+  "scope": "/flamingo/",
+  "display": "standalone",
+  "background_color": "#FFF8F0",
+  "theme_color": "#FFF8F0",
+  "icons": [
+    {
+      "src": "/flamingo/favicon.png",
+      "sizes": "112x112",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
